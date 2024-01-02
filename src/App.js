@@ -1,5 +1,5 @@
 import BackgroubdImage from "./assets/bacground.jpg"
-
+import SearchBar from "./componets/search"
 function App() {
   return (
     <div
@@ -30,6 +30,7 @@ function App() {
               <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
             </div>
           </div>
+          <SearchBar />
         </div>
       </div>
     </div>
