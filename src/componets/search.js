@@ -2,12 +2,12 @@ import React from "react"
 
 const SearchContainer = () => {
   return (
-    <div className="relative text-gray-600 shadow-md">
+    <div className="relative text-gray-600 ">
       <input
         type="search"
         name="search"
         placeholder="Search"
-        className="bg-white border border-gray-300 shadow-sm h-10 px-5 pr-10 rounded-full text-sm focus:outline-[#713f12]"
+        className="bg-white border border-gray-300 shadow-md h-10 px-5 pr-10 rounded-full text-sm focus:outline-[#713f12]"
         aria-label="Search"
         aria-describedby="search-addon"
       />

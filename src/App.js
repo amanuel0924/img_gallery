@@ -30,7 +30,12 @@ function App() {
               <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
             </div>
           </div>
-          <SearchBar />
+          <div className=" flex flex-col md:flex-row justify-between space-y-5 md:space-y-0 ">
+            <SearchBar />
+            <button className="py-2 px-10  text-lg font-normal text-white bg-black border border-black rounded-lg shadow-2xl duration-200 hover:bg-white hover:text-black">
+              Upload
+            </button>
+          </div>
         </div>
       </div>
     </div>
