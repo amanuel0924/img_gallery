@@ -1,42 +1,21 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import BackgroubdImage from "./assets/bacground.jpg"
 import SearchBar from "./componets/search"
+import NavBar from "./componets/Nav"
+import Gallery from "./componets/Gallery"
+
 function App() {
   return (
-    <div
-      className="bg-cover h-screen  bg-center  "
-      style={{ backgroundImage: `url(${BackgroubdImage})` }}
-    >
-      <div className="w-full h-full flex justify-center items-center  backdrop-blur-md fixed z--0">
-        <div className="bg-white p-6 m-3 space-y-10 shadow-2xl md:p-40 rounded-3xl">
-          <div
-            className="flex flex-col justify-center items-center
-           space-y-3 md:space-y-0 md:space-x-8
-            md:flex-row md:mb-24 md:justify-end transt duration-200 "
-          >
-            <div className="group">
-              <a href="#">Vector</a>
-              <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
-            </div>
-            <div className="group">
-              <a href="#">Potrait</a>
-              <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
-            </div>
-            <div className="group">
-              <a href="#">Landscape</a>
-              <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
-            </div>
-            <div className="group">
-              <a href="#">Ai images</a>
-              <div className=" mx-2 mt-2 duration-500 opacity-0 border-b-4 border-black group-hover:opacity-100"></div>
-            </div>
-          </div>
-          <div className=" flex flex-col md:flex-row justify-between space-y-5 md:space-y-0 ">
-            <SearchBar />
-            <button className="py-2 px-10  text-lg font-normal text-white bg-black border border-black rounded-lg shadow-2xl duration-200 hover:bg-white hover:text-black">
-              Upload
-            </button>
-          </div>
+    <div className="flex items-center justify-center min-h-screen bg-slate-100 ">
+      <div className="bg-white p-6 m-10 space-y-10 shadow-2xl md:p-40 rounded-3xl">
+        <NavBar />
+        <div className=" flex flex-col md:flex-row justify-between space-y-5 md:space-y-0 ">
+          <SearchBar />
+          <button className="py-2 px-10  text-lg font-normal text-white bg-[#713f12] border border-[#713f12] rounded-full shadow-2xl duration-200 hover:bg-white hover:text-black">
+            Upload
+          </button>
         </div>
+        <Gallery />
       </div>
     </div>
   )

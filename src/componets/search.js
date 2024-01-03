@@ -13,7 +13,7 @@ const SearchContainer = () => {
       />
       <button type="submit" className="absolute right-0 top-0 mt-3 mr-4 ">
         <svg
-          className="h-4 w-4 fill-current text-[#713f12] hover:scale-125 transition duration-200"
+          className="h-4 w-4 fill-current text-[#713f12] font-bold hover:scale-125 transition duration-200"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           version="1.1"
