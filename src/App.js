@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import BackgroubdImage from "./assets/bacground.jpg"
+
 import SearchBar from "./componets/search"
 import NavBar from "./componets/Nav"
 import Gallery from "./componets/Gallery"
