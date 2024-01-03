@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# React Gallery App
+
+Welcome to the React Gallery App! This responsive web application is built using React, Tailwind CSS for styling, and React Icons for a set of customizable icons.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Responsive Design: The app is designed to work seamlessly across various screen sizes, providing a consistent user experience.
+
+Image Gallery: Display a collection of images in an organized grid layout.
+
+Tailwind CSS: Utilizes Tailwind CSS for styling, making it easy to customize and maintain the app's appearance.
+
+React Icons: Integrates a set of icons from React Icons for a visually appealing user interface.
+
+![Screenshot 2024-01-03 112818](https://github.com/amanuel0924/img_gallery/assets/89680444/c5e7eaa3-4bb6-4546-af4b-f5d5d6f6b7b6)
+![Screenshot 2024-01-03 112844](https://github.com/amanuel0924/img_gallery/assets/89680444/23f8737a-7e5b-49d4-96f3-89ea9b39b436)
+
 
 ### `npm start`
 
